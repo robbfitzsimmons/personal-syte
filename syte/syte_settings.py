@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 DEPLOYMENT_MODE = 'prod'
-COMPRESS_REVISION_NUMBER = '2.0'
+COMPRESS_REVISION_NUMBER = '4.0'
 
 
 #Blog Integration: Tumblr
@@ -35,7 +35,7 @@ GITHUB_OAUTH_ACCESS_TOKEN_URL = 'https://github.com/login/oauth/access_token'
 
 
 #Dribbble Integration
-DRIBBBLE_INTEGRATION_ENABLED = False
+DRIBBBLE_INTEGRATION_ENABLED = True
 DRIBBBLE_API_URL = 'http://api.dribbble.com/players/'
 
 
