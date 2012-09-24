@@ -5,7 +5,7 @@ COMPRESS_REVISION_NUMBER = '4.0'
 
 
 #Blog Integration: Tumblr
-TUMBLR_BLOG_URL = 'lettersfromtheyard.tumblr.com'
+TUMBLR_BLOG_URL = 'robbfitzsimmons.tumblr.com'
 TUMBLR_API_URL = 'http://api.tumblr.com/v2/blog/{0}'.format(TUMBLR_BLOG_URL)
 TUMBLR_API_KEY = 'uvh0xPM0qB88yKq56qFSLYE43QPdMfcKar01xbWCWR2WiROYN6'
 
