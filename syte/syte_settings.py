@@ -36,7 +36,7 @@ GITHUB_OAUTH_ACCESS_TOKEN_URL = 'https://github.com/login/oauth/access_token'
 
 #Dribbble Integration
 DRIBBBLE_INTEGRATION_ENABLED = True
-DRIBBBLE_API_URL = 'http://api.dribbble.com/players/'
+DRIBBBLE_API_URL = 'http://api.dribbble.com/'
 
 
 #Instagram Integration
