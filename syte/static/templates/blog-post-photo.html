@@ -5,7 +5,7 @@
   </hgroup>
   {{#each photos}}
     {{#with original_size}}
-      <p><img src="{{url}}" /></p>
+      <p><a href="/post/{{ id }}"><img src="{{url}}" /></a></p>
     {{/with}}
     {{#if caption}}
        {{{ caption }}}
