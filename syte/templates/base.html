@@ -31,11 +31,10 @@
       <li><a href="/" id="home-link">Home</a></li>
       <li><a href="http://twitter.com/#!/robbfitzsimmons" id="twitter-link">Twitter</a></li>
       <li><a href="http://github.com/robbfitzsimmons" id="github-link">Github</a></li>
-      <li><a href="http://stackoverflow.com/users/1092942/robbfitzsimmons" id="stackoverflow-link">StackOverflow</a></li>
-      <!--<li><a href="http://dribbble.com/robbfitzsimmons" id="dribbble-link">Dribbble</a></li>-->
       <li><a href="http://instagr.am/21373670" id="instagram-link">Instagram</a></li>
       <li><a href="http://lastfm.com/user/robbfitzsimmons" id="lastfm-link">Last.fm</a></li>
       <li><a href="https://foursquare.com/user/20928937" id="foursquare-link">Foursquare</a></li>
+      <li><a href="http://stackoverflow.com/users/1092942/robbfitzsimmons" id="stackoverflow-link">StackOverflow</a></li>
       <li><a href="mailto:robb@proximate.com?subject=Hi!" id="contact-link">Contact</a></li>
     </ul>
   </nav>
@@ -60,7 +59,10 @@ var twitter_integration_enabled = {% if TWITTER_INTEGRATION_ENABLED %}true{% els
     soundcloud_integration_enabled = {% if SOUNDCLOUD_INTEGRATION_ENABLED %}true{% else %}false{% endif %},
     bitbucket_integration_enabled = {% if BITBUCKET_INTEGRATION_ENABLED %}true{% else %}false{% endif %},
     foursquare_integration_enabled = {% if FOURSQUARE_INTEGRATION_ENABLED %}true{% else %}false{% endif %},
-    disqus_integration_enabled = {% if DISQUS_INTEGRATION_ENABLED %}true{% else %}false{% endif %};
+    disqus_integration_enabled = {% if DISQUS_INTEGRATION_ENABLED %}true{% else %}false{% endif %},
+    tent_integration_enabled = {% if TENT_INTEGRATION_ENABLED %}true{% else %}false{% endif %};
+    steam_integration_enabled = {% if STEAM_INTEGRATION_ENABLED %}true{% else %}false{% endif %};
+    stackoverflow_integration_enabled = {% if STACKOVERFLOW_INTEGRATION_ENABLED %}true{% else %}false{% endif %};
 
 
 {% if DISQUS_INTEGRATION_ENABLED %}var disqus_shortname = '{{ DISQUS_SHORTNAME }}';{% endif %}
@@ -72,7 +74,7 @@ var twitter_integration_enabled = {% if TWITTER_INTEGRATION_ENABLED %}true{% els
 <script src="{{ MEDIA_URL }}js/libs/handlebars.js"></script>
 <script src="{{ MEDIA_URL }}js/libs/moment.min.js"></script>
 <script src="{{ MEDIA_URL }}js/libs/bootstrap-modal.js"></script>
-<script src="{{ MEDIA_URL }}js/libs/spin.min.js"></script>
+<script src="{{ MEDIA_URL }}js/libs/spin.js"></script>
 <script src="{{ MEDIA_URL }}js/libs/prettify.js"></script>
 
 <script src="{{ MEDIA_URL }}js/components/base.js"></script>
@@ -89,13 +91,45 @@ var twitter_integration_enabled = {% if TWITTER_INTEGRATION_ENABLED %}true{% els
 {% if DISQUS_INTEGRATION_ENABLED %}<script src="{{ MEDIA_URL }}js/components/disqus.js"></script>{% endif %}
 {% if SOUNDCLOUD_INTEGRATION_ENABLED %}<script src="{{ MEDIA_URL }}js/components/soundcloud.js"></script>{% endif %}
 {% if FOURSQUARE_INTEGRATION_ENABLED %}<script src="{{ MEDIA_URL }}js/components/foursquare.js"></script>{% endif %}
+{% if TENT_INTEGRATION_ENABLED %}<script src="{{ MEDIA_URL }}js/components/tent.js"></script>{% endif %}
+{% if STEAM_INTEGRATION_ENABLED %}<script src="{{ MEDIA_URL }}js/components/steam.js"></script>{% endif %}
+{% if STACKOVERFLOW_INTEGRATION_ENABLED %}<script src="{{ MEDIA_URL }}js/components/stackoverflow.js"></script>{% endif %}
 {% else %}
 <script src="{{ MEDIA_URL }}js/min/scripts-{{ COMPRESS_REVISION_NUMBER }}.min.js"></script>
+{% endif %}
+
+{% if SHARETHIS_PUBLISHER_KEY %}
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "{{ SHARETHIS_PUBLISHER_KEY }}"});</script>
 {% endif %}
 
 {% block extra_js %}{% endblock %}
 <script type="text/javascript">
 {% block extra_inline_js %}{% endblock %}
+
+{% if WOOPRA_TRACKING_DOMAIN %}
+// Start of woopra code
+function woopraReady(tracker) {
+    tracker.setDomain("{{WOOPRA_TRACKING_DOMAIN}}");
+    tracker.setIdleTimeout({{WOOPRA_TRACKING_IDLE_TIMEOUT}});
+    {% if WOOPRA_INCLUDE_QUERY %}
+    tracker.trackPageview({type:'pageview',url:window.location.pathname+window.location.search,title:document.title});
+    {% else %}
+    tracker.track();
+    {% endif %}
+    return false;
+}
+(function() {
+    var wsc = document.createElement('script');
+    wsc.src = document.location.protocol+'//static.woopra.com/js/woopra.js';
+    wsc.type = 'text/javascript';
+    wsc.async = true;
+    var ssc = document.getElementsByTagName('script')[0];
+    ssc.parentNode.insertBefore(wsc, ssc);
+})();
+// End of woopra code
+{% endif %}
 
 {% if GOOGLE_ANALYTICS_TRACKING_ID %}
 var _gaq = _gaq || [];
@@ -109,6 +143,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 {% endif %}
 </script>
 </body>
+</html>
 
 
 
