@@ -400,7 +400,6 @@
 .track-image {
   border-bottom: 0;
   position: relative;
-  padding-left: 45px;
 
   img {
     position: absolute;
@@ -607,3 +606,67 @@
     color: @adjacent-color;
   }
 }
+
+//LinkedIn Profile
+.linkedin-details {
+  margin: 0;
+  background: #fff;
+
+  p {
+    margin: 0 0 10px 0;
+    line-height: 22px;
+  }
+
+  p.linkedin-dates {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 5px;
+  }
+}
+
+.linkedin-sec {
+  border-top: 1px solid #C2C2C2;
+  padding: 10px;
+
+  .linkedin-title {
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  ul.linkedin-experience , ul.linkedin-education {
+    list-style: none;
+    margin: 15px;
+
+    li { margin-bottom: 20px; }
+  }
+}
+
+.linkedin-sec.linkedin-summary {
+  border-top: 0;
+  p { padding: 15px; }
+}
+
+.linkedin-skills {
+  list-style: none;
+  margin: 15px;
+
+  li { 
+    display: inline-block;
+    
+    //ie7 inline-block hack
+    zoom: 1;
+    *display: inline;
+    background: #E9E9E9;
+    border: 1px solid #C2C2C2;
+    padding: 3px 10px;
+    margin: 0 5px 5px 0;
+    font-size: 14px;
+  }
+}
+
+.linkedin-groups {
+  margin: 15px 15px 15px 30px;
+}
+
+
+

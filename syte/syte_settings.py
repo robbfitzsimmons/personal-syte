@@ -128,13 +128,20 @@ STEAM_API_KEY = '[ENTER YOUR STEAM API KEY HERE, SEE STEAM SETUP INSTRUCTIONS]'
 FLICKR_INTEGRATION_ENABLED = True
 FLICKR_ID = '[ENTER YOUR FLICKR ID (NOT USERNAME) HERE]' # You do your username->ID lookup here: http://idgettr.com/
 
+#LinkedIn Integration
+LINKEDIN_INTEGRATION_ENABLED = True
+LINKEDIN_CONSUMER_KEY = 'oe391h0os613'
+LINKEDIN_CONSUMER_SECRET = 'gfI92bbvs9Dw4jbx'
+LINKEDIN_USER_TOKEN = '0a2b5244-de21-4f54-bb19-c44425085310'
+LINKEDIN_USER_SECRET = 'e33bd1c8-8fd5-4d2f-8835-da2769542975'
+
 SITEMAP_ENABLED = True
 
 if DEPLOYMENT_MODE == 'dev':
     SITE_ROOT_URI = 'http://127.0.0.1:8000/'
+    ALLOWED_HOSTS = ['*']
     DEBUG = True
 else:
     DEBUG = False
+    ALLOWED_HOSTS = ['robbfitzsimmons.herokuapp.com']
     SITE_ROOT_URI = 'http://robb-personal-site.herokuapp.com/'
-
-MEDIA_URL = SITE_ROOT_URI + 'static/'

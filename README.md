@@ -1,76 +1,6 @@
 # Syte
 
-Syte is a really simple but powerful packaged personal site that has social integrations like Twitter, GitHub, Dribbble, Instagram, Foursquare, Tumblr, Wordpress, Last.fm, SoundCloud, Bitbucket, StackOverflow, Flickr and Steam. You can see it in action on [my personal site](http://rigoneri.com).
-
-### There is only one rule/suggestion
-
-You can use, reproduce and do whatever you want with Syte but I would like you to choose a different adjacent color as the ones used by the people below. Once you have chosen your color and deployed your Syte based site, please send a pull request with an image of you containing the color on the border like the ones below. The image needs to be 60x60 px.
-
-[![rigoneri](https://github.com/rigoneri/syte/blob/master/readme-imgs/rigoneri.png?raw=true)](http://rigoneri.com)
-[![sambao21](https://github.com/rigoneri/syte/blob/master/readme-imgs/sambao21.png?raw=true)](http://sambao21.com)
-[![keithentzeroth](https://github.com/rigoneri/syte/blob/master/readme-imgs/keithentzeroth.png?raw=true)](http://keithentzeroth.com)
-[![garrypolley](https://github.com/rigoneri/syte/blob/master/readme-imgs/garrypolley.png?raw=true)](http://garrypolley.com)
-[![snooze82](https://github.com/rigoneri/syte/blob/master/readme-imgs/snooze82.png?raw=true)](http://www.henklein.com)
-[![johncoogan](https://github.com/rigoneri/syte/blob/master/readme-imgs/johncoogan.png?raw=true)](http://johncoogan.com)
-[![mithrandiragain](https://github.com/rigoneri/syte/blob/master/readme-imgs/mithrandiragain.png?raw=true)](http://blog.atomitware.tk)
-[![href](https://github.com/rigoneri/syte/blob/master/readme-imgs/href.png?raw=true)](http://blog.stacktrace.ch)
-[![aristidesfl](https://github.com/rigoneri/syte/blob/master/readme-imgs/aristidesfl.png?raw=true)](http://aristidesfl.herokuapp.com)
-[![aureax](https://github.com/rigoneri/syte/blob/master/readme-imgs/aureax.png?raw=true)](http://aureax.xn--hwg34fba.ws)
-[![evilfaeton](https://github.com/rigoneri/syte/blob/master/readme-imgs/evilfaeton.png?raw=true)](http://evilfaeton.com)
-[![eveiga](https://github.com/rigoneri/syte/blob/master/readme-imgs/eveiga.png?raw=true)](http://eveiga.herokuapp.com)
-[![mikaelo](https://github.com/rigoneri/syte/blob/master/readme-imgs/mikaelo.png?raw=true)](http://mikaelo.herokuapp.com)
-[![charliekey](https://github.com/rigoneri/syte/blob/master/readme-imgs/charliekey.png?raw=true)](http://charliekey.me)
-[![nurihodges](https://github.com/rigoneri/syte/blob/master/readme-imgs/nurihodges.png?raw=true)](http://nurihodges.herokuapp.com)
-[![manavo](https://github.com/rigoneri/syte/blob/master/readme-imgs/manavo.png?raw=true)](http://manavo.com)
-[![rshepherd](https://github.com/rigoneri/syte/blob/master/readme-imgs/rshepherd.png?raw=true)](http://rshepherd.org)
-[![yurytsukerman](https://github.com/rigoneri/syte/blob/master/readme-imgs/yurytsukerman.png?raw=true)](http://yurytsukerman.com)
-[![javisoto](https://github.com/rigoneri/syte/blob/master/readme-imgs/javisoto.png?raw=true)](http://www.javisoto.es)
-[![joneisen](https://github.com/rigoneri/syte/blob/master/readme-imgs/joneisen.png?raw=true)](http://www.joneisen.me)
-[![mobileiteration](https://github.com/rigoneri/syte/blob/master/readme-imgs/mobileiteration.png?raw=true)](http://mobileiteration.com)
-[![danielcampo](https://github.com/rigoneri/syte/blob/master/readme-imgs/danielcampo.png?raw=true)](http://danielcampo.com)
-[![bhashkar](https://github.com/rigoneri/syte/blob/master/readme-imgs/bhashkar.png?raw=true)](http://bhashkar.me)
-[![lukelee](https://github.com/rigoneri/syte/blob/master/readme-imgs/lukelee.png?raw=true)](http://lukelee-syte.herokuapp.com)
-[![dannycochran](https://github.com/rigoneri/syte/blob/master/readme-imgs/dannycochran.png?raw=true)](http://dcochran.com)
-[![srir](https://github.com/rigoneri/syte/blob/master/readme-imgs/srir.png?raw=true)](http://sraghavan.net)
-[![junseki](https://github.com/rigoneri/syte/blob/master/readme-imgs/junseki.png?raw=true)](http://junseki.com)
-[![allydimg](https://github.com/rigoneri/syte/blob/master/readme-imgs/allydimg.png?raw=true)](http://allyd.herokuapp.com)
-[![hussfelt](https://github.com/rigoneri/syte/blob/master/readme-imgs/hussfelt.png?raw=true)](http://hussfelt.net)
-[![damilare](https://github.com/rigoneri/syte/blob/master/readme-imgs/damilare.png?raw=true)](http://dami.me)
-[![eventh](https://github.com/rigoneri/syte/blob/master/readme-imgs/eventh.png?raw=true)](http://eventh.herokuapp.com)
-[![clayferris](https://github.com/rigoneri/syte/blob/master/readme-imgs/clayferris.png?raw=true)](http://claytonferris.com)
-[![alexmeswarb](https://github.com/rigoneri/syte/blob/master/readme-imgs/ameswarb.png?raw=true)](http://alexmeswarb.com)
-[![pranayairan](https://github.com/rigoneri/syte/blob/master/readme-imgs/pranayairan.png?raw=true)](http://pranayairan.herokuapp.com)
-[![lfranchi](https://github.com/rigoneri/syte/blob/master/readme-imgs/lfranchi.png?raw=true)](http://lfranchi.com)
-[![jihonrado](https://github.com/rigoneri/syte/blob/master/readme-imgs/jihonrado.png?raw=true)](http://jihonrado.es)
-[![DavidRagone](https://github.com/rigoneri/syte/blob/master/readme-imgs/dmragone.png?raw=true)](http://www.dmragone.com)
-[![bronskiy](https://github.com/rigoneri/syte/blob/master/readme-imgs/bronskiy.png?raw=true)](http://bronskiy.com)
-[![darrenmowat](https://github.com/rigoneri/syte/blob/master/readme-imgs/darrenmowat.png?raw=true)](http://darrenmowat.co.uk)
-[![sheetsj](https://github.com/rigoneri/syte/blob/master/readme-imgs/sheetsj.png?raw=true)](http://jeffsheets.herokuapp.com)
-[![jeiting](https://github.com/rigoneri/syte/blob/master/readme-imgs/jeiting.png?raw=true)](http://jacobeiting.com)
-[![chriskun](https://github.com/rigoneri/syte/blob/master/readme-imgs/chriskun.png?raw=true)](http://chrisbolton.me)
-[![denibertovic](https://github.com/rigoneri/syte/blob/master/readme-imgs/deni.png?raw=true)](http://blog.initeq.net)
-[![calebalbritton](https://github.com/rigoneri/syte/blob/master/readme-imgs/calebalbritton.png?raw=true)](http://www.calebalbritton.com)
-[![vincentying](https://github.com/rigoneri/syte/blob/master/readme-imgs/vincentying.png?raw=true)](http://ying82.herokuapp.com)
-[![danielmayo](https://github.com/rigoneri/syte/blob/master/readme-imgs/danmayo.png?raw=true)](http://www.danielmayo.co.uk/)
-[![krisrang](https://github.com/rigoneri/syte/blob/master/readme-imgs/krisrang.png?raw=true)](http://www.kristjanrang.eu)
-[![mihan007](https://github.com/rigoneri/syte/blob/master/readme-imgs/mihan007.png?raw=true)](http://mihan007.com)
-[![garethwestern](https://github.com/rigoneri/syte/blob/master/readme-imgs/garethwestern.png?raw=true)](http://garethwestern.com)
-[![birarda](https://github.com/rigoneri/syte/blob/master/readme-imgs/birarda.png?raw=true)](http://www.birarda.com)
-[![mraxilus](https://github.com/rigoneri/syte/blob/master/readme-imgs/mraxilus.png?raw=true)](http://mraxil.us)
-[![owensbla](https://github.com/rigoneri/syte/blob/master/readme-imgs/blakeowens.png?raw=true)](http://blakeowens.com)
-[![wuotr](https://github.com/rigoneri/syte/blob/master/readme-imgs/wuotr.png?raw=true)](http://wuotr.com)
-[![hassankhan](https://github.com/rigoneri/syte/blob/master/readme-imgs/hassankhan.png?raw=true)](http://hassankhan.me)
-[![srodal](https://github.com/rigoneri/syte/blob/master/readme-imgs/srodal.png?raw=true)](http://www.srodal.name)
-[![crmarsh](https://github.com/rigoneri/syte/blob/master/readme-imgs/crmarsh.png?raw=true)](http://crmarsh.herokuapp.com)
-[![neoromantic](https://github.com/rigoneri/syte/blob/master/readme-imgs/neoromantic.png?raw=true)](http://sergeypetrov.ru)
-[![ilcoso](https://github.com/rigoneri/syte/blob/master/readme-imgs/ilcoso.png?raw=true)](http://ilcoso.herokuapp.com)
-[![gjacobrobertson](https://github.com/rigoneri/syte/blob/master/readme-imgs/gjacobrobertson.png?raw=true)](http://gjacobrobertson.net)
-[![einat](https://github.com/rigoneri/syte/blob/master/readme-imgs/einat.png?raw=true)](http://einatschlagmann.com)
-[![hpanahi](https://github.com/rigoneri/syte/blob/master/readme-imgs/hpanahi.png?raw=true)](http://hes.am)
-[![kevdashdev](https://github.com/rigoneri/syte/blob/master/readme-imgs/kevdashdev.png?raw=true)](http://bykev.in/)
-[![avijeets](https://github.com/rigoneri/syte/blob/master/readme-imgs/avijeets.png?raw=tru)](http://avijeet.me/)
-[![avijeets](https://github.com/rigoneri/syte/blob/master/readme-imgs/devgeek.png?raw=tru)](http://devgeek.me/)
-[![christianrahn](https://github.com/rigoneri/syte/blob/master/readme-imgs/christianrahn.png?raw=tru)](http://christianrahn.us/)
+Syte is a really simple but powerful packaged personal site that has social integrations like Twitter, GitHub, Dribbble, Instagram, Foursquare, Tumblr, Wordpress, Linkedin, Spotify/Last.fm, SoundCloud, Bitbucket, StackOverflow, Flickr and Steam. You can see it in action on [my personal site](http://rigoneri.com).
 
 ## Social Integrations
 
@@ -157,6 +87,11 @@ Syte has Flickr integration, which means that you can show your Flickr photos wi
 
 ![Syte Flickr](https://github.com/rigoneri/syte/blob/master/readme-imgs/f-13.png?raw=true)
 
+### LinkedIn
+Syte has LinkedIn integration, which means that you can show your LinkedIn profile information within your site.
+
+![Syte LinkedIn](https://github.com/rigoneri/syte/blob/master/readme-imgs/f-14.png?raw=true)
+
 ## Responsive UI
 
 Syte is responsive, which means that it scales down to a mobile device screen size.
@@ -231,7 +166,7 @@ Once you have the `api_key` from Tumblr you have to enter it in **syte_settings.
 
 #### Setting up Wordpress
 
-For now Syte only support wordpress blogs that are build using [wordpress.com](http://wordpress.com). 
+For now Syte only support wordpress blogs that are build using [wordpress.com](http://wordpress.com).
 
 Open `syte > syte_settings.py` and under `WORDPRESS_BLOG_URL` enter ther url of your wordpress.com blog, also under `BLOG_PLATFORM` set it to "wordpress".
 
@@ -412,12 +347,24 @@ To make it work, you'll need to find your Flickr ID. This is different to your u
 
 If you want to turn off Flickr integration just set `FLICKR_INTEGRATION_ENABLED` to False.
 
+### Setting up LinkedIn integration
+
+LinkedIn has another level of security, therefore we need more information instead of just an api_key like Tumblr. To get started create a new application on LinkedIn for your website by going to <https://developer.linkedin.com/>. Once you are done creating your application you will be taken to your application page on LinkedIn, there you already have four pieces of the puzzle, the `Consumer key`, `Consumer secret`, `User Token` and `User Secret` make sure you save those.
+
+Once you have those four items from LinkedIn you have to enter them in your **syte_settings.py** located in `syte > syte_settings.py`. Once you open that file enter the following:
+
+* `Consumer key` string you saved under `LINKEDIN_CONSUMER_KEY`
+* `Consumer secret` string you saved under  `LINKEDIN_CONSUMER_SECRET`
+* `User token` string you saved under `LINKEDIN_USER_TOKEN`
+* `User secret` string you saved under `LINKEDIN_USER_SECRET`
+
+If you want to turn off the LinkedIn integration just set `LINKEDIN_INTEGRATION_ENABLED` to False.
+
 
 
 ## Running & Deployment Instructions
 
-Now that you have everything setup and ready to go we will be able to run the project locally and deploy to Heroku with the instructions below. Please note that these instructions are for Mac, which should be the same for Linux systems. If you have problems with these instructions on Windows, let me know or send a pull request.
-
+Now that you have everything setup and ready to go we will be able to run the project locally and deploy to Heroku or AWS with the instructions below. Please note that these instructions are for Mac, which should be the same for Linux systems. If you have problems with these instructions on Windows, let me know or send a pull request.
 
 
 
@@ -484,6 +431,26 @@ First signup to [Heroku](http://heroku.com) then follow these simple [Django dep
 2. Change the ``SITE_ROOT_URI`` value to your Heroku app url in **syte_settings.py** see the available example to how it should be formatted.
 
 
+### Deploying to AWS
+
+Deploying to [AWS](http://aws.amazon.com) is a little more complicated than Heroku, but is a nice alternative.  The easiest way to deploy your application to AWS is by using [AWS Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Python_django.html).  To help keep costs low, we will deploy to micro instances.
+
+First signup to [AWS](http://aws.amazon.com) then follow the instructions below.  I have already included some of the required files for you (see syte.config in .ebextensions directory).  The other required files will be created automatically, but some of the settings may need to be altered slightly.
+
+1. Change the ``DEPLOYMENT_MODE`` value to prod in **syte_settings.py** located in ``syte > syte_settings.py``
+2. Change the ``SITE_ROOT_URI`` value to your AWS app url in **syte_settings.py** see the available example to how it should be formatted.
+3. Install the eb command-line tools and add to your path.  Download from [here](http://aws.amazon.com/code/6752709412171743).  This will allow us to control AWS from the command-line.
+4. Execute the `eb init` command in the root of the syte repo and follow the on-screen instructions.  This will help get our project ready to be deployed into AWS.  Please note: during this step you will be asked to provide security credentials.  If you are not sure what to use, see [here](http://docs.aws.amazon.com/general/latest/gr/getting-aws-sec-creds.html)
+5. Execute the `eb start` command to deploy a sample application to AWS.  Once this command completes execute `eb status --verbose` and confirm that the sample application is running at the provided url.
+6. Let's make sure our configurations are right.
+   - First, open ./ebextensions/syte.config and confirm the settings here.  You should not have to update anything.
+   - Second, open the ./elasticbeanstalk/opensettings.XXX-env (where XXX-env is the name of your environment).  Update this by updating: 
+     DJANGO_SETTINGS_MODULE=syte.settings
+     StaticFiles=syte/static=
+     WSGIPath=syte/wsgi.py
+7. To make sure the above changes are not reverted, execute `eb update`.
+8. Deploy the repo to AWS by executing `git aws.push`.  This command can be rerun whenever you have changes that you want to deploy.
+9. Execute `eb status --verbose` or monitor the provisioning process on AWS' website.  To troubleshoot, go to the ElasticBeanstalk section of AWS, get a snapshot of the logs and review them for errors.
 
 
 

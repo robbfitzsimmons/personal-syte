@@ -8,7 +8,6 @@ def site_pages(request):
         context['DEV_DEPLOYMENT_MODE'] = True
 
     context['COMPRESS_REVISION_NUMBER'] = settings.COMPRESS_REVISION_NUMBER
-    context['MEDIA_URL'] = settings.MEDIA_URL
 
     context['RSS_FEED_URL'] = settings.RSS_FEED_URL
     context['RSS_FEED_ENABLED'] = settings.RSS_FEED_ENABLED
@@ -21,6 +20,7 @@ def site_pages(request):
     context['LASTFM_INTEGRATION_ENABLED'] = settings.LASTFM_INTEGRATION_ENABLED
     context['SOUNDCLOUD_INTEGRATION_ENABLED'] = settings.SOUNDCLOUD_INTEGRATION_ENABLED
     context['FOURSQUARE_INTEGRATION_ENABLED'] = settings.FOURSQUARE_INTEGRATION_ENABLED
+    context['LINKEDIN_INTEGRATION_ENABLED'] = settings.LINKEDIN_INTEGRATION_ENABLED
 
     context['TENT_INTEGRATION_ENABLED'] = settings.TENT_INTEGRATION_ENABLED
     context['TENT_ENTITY_URI'] = settings.TENT_ENTITY_URI

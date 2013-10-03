@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
-from django.views.generic.simple import direct_to_template
+from django.views.generic import TemplateView, RedirectView
 from django.conf.urls import patterns, url
 from django.conf import settings
 
-
-handler404 = 'syte.views.home.page_not_found_error'
+handler404 = 'syte.views.home.page_not_found_error' 
 handler500 = 'syte.views.home.server_error'
 
 urlpatterns = patterns('',
@@ -92,19 +91,20 @@ if settings.STACKOVERFLOW_INTEGRATION_ENABLED:
         url(r'^stackoverflow/(?P<userid>[\-\w]+)/?$', 'syte.views.stackoverflow.stackoverflow'),
     )
 
+#Linkedin Integration
+if settings.LINKEDIN_INTEGRATION_ENABLED:
+    urlpatterns += patterns('',
+        url(r'^linkedin/?$', 'syte.views.linkedin_view.linkedin_view'),
+    )
+
 #Sitemap
 if settings.SITEMAP_ENABLED:
     urlpatterns += patterns('',
-        (r'^sitemap\.xml$', direct_to_template,
-            {'template': 'sitemap.xml', 'mimetype': 'application/xml'})
-        )
+        (r'^sitemap\.xml$', TemplateView.as_view(template_name="sitemap.xml", 
+            content_type="application/xml")),
+    )
 
-#Statics: Hacky for now... fix this later...
 urlpatterns += patterns('',
-    (r'^robots\.txt$', direct_to_template,
-        {'template': 'robots.txt', 'mimetype': 'text/plain'}),
-    (r'^favicon\.ico$', 'django.views.generic.simple.redirect_to', {
-        'url': '/static/imgs/favicon.ico'}),
-    (r'^static/(?P<path>.*)$', 'django.views.static.serve',
-        {'document_root': settings.MEDIA_ROOT}),
+    (r'^robots\.txt$', TemplateView.as_view(template_name="robots.txt")),
+    (r'^favicon\.ico$', RedirectView.as_view(url="/static/imgs/favicon.ico")),
 )
