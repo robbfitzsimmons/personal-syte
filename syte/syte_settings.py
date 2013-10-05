@@ -142,6 +142,6 @@ if DEPLOYMENT_MODE == 'dev':
     ALLOWED_HOSTS = ['*']
     DEBUG = True
 else:
-    DEBUG = False
-    ALLOWED_HOSTS = ['robbfitzsimmons.herokuapp.com']
-    SITE_ROOT_URI = 'http://robb-personal-site.herokuapp.com/'
+    DEBUG = True
+    ALLOWED_HOSTS = ['*']
+    SITE_ROOT_URI = 'https://robb-personal-site.herokuapp.com/'
