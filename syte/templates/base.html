@@ -17,6 +17,7 @@
   {% else %}
   <link rel="stylesheet" href="{% static 'css/styles-'|add:COMPRESS_REVISION_NUMBER|add:'.min.css' %}" type="text/css" media="screen, projection">
   {% endif %}
+  {% include "favicon.html" %}
 </head>
 <body>
 <header class="main-header">
