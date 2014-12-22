@@ -1,4 +1,3 @@
-
 function setupFoursquare(el) {
   var href = el.href;
 
